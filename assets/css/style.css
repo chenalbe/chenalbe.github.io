@@ -1,0 +1,41 @@
+.main {
+    width:960px;
+    margin: auto;
+
+}
+body {
+    background-image:url("../images/email-pattern.png");
+    background-repeat: repeat;
+    display:flex;
+    flex-direction:column;
+}
+#name {
+    background-color:#4aaaa5;
+    font:'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+    
+}
+.links {
+
+}
+head {
+    font:font-family: 'Georgia', Times, 'Times New Roman', serif;
+}
+#propic {
+    width:30%;
+    float:left;
+}
+#profile {
+    width:70%;
+    float:left;
+    background-color:#ffffff;
+}
+#work {
+    flex: 1 0 auto;
+    background-color:#ffffff;
+}
+footer {
+    text-align:center;
+    border-top: 8px solid #4aaaa5;
+    background-color:#666666;
+    flex-shrink:0;
+}
