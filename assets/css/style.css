@@ -58,6 +58,8 @@ head {
     float:left;
     background-color:#ffffff;
     margin-bottom:120px;
+    position: relative;
+    left: 10px;
 }
 #work {
     background-color:#ffffff;
