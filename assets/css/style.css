@@ -1,36 +1,65 @@
 .main {
     width:960px;
     margin: auto;
-
+    margin-bottom:60px;
+    border-color:#dddddd;
+    border-width:5px;
+    background-color:white;
+    padding-bottom: 60px;
+    flex: 1 0 auto;
+    padding:15px;
 }
 body {
     background-image:url("../images/email-pattern.png");
     background-repeat: repeat;
     display:flex;
     flex-direction:column;
+    color:#777777;
+    border:1pxp solid #dddddd;
+    font:'Arial', 'Helvetica Neue', Helvetica, sans-serif;
 }
 #name {
     background-color:#4aaaa5;
-    font:'Arial', 'Helvetica Neue', Helvetica, sans-serif;
-    
+    font-family:'Georgia', Times, 'Times New Roman', serif;
+    width:30%;
+    font-size:28px;
+    color:white;
+    float:left;
+    margin-left:280px;
+    padding:10px;
 }
-.links {
-
+#links {
+    width:30%;
+    text-align: left;
+    float:right;
+    word-spacing: 20px;
+    line-height: 3;
+    font-size:18px;
+    margin-right:40px;
+}
+a:link {
+    text-decoration: none;
+    color:#777777;
+}
+a:visited {
+    text-decoration: none;
+    color:#777777;
 }
 head {
-    font:font-family: 'Georgia', Times, 'Times New Roman', serif;
+    font:'Georgia', Times, 'Times New Roman', serif;
+    border:bottom #cccccc;
 }
 #propic {
-    width:30%;
+    width:20%;
     float:left;
 }
 #profile {
-    width:70%;
+    width:80%;
     float:left;
     background-color:#ffffff;
+    margin-bottom:120px;
 }
 #work {
-    flex: 1 0 auto;
     background-color:#ffffff;
 }
 footer {
@@ -38,4 +67,38 @@ footer {
     border-top: 8px solid #4aaaa5;
     background-color:#666666;
     flex-shrink:0;
+}
+H1 {
+    color:#4aaaa5;
+}
+#form {
+    margin:10px;
+}
+#message {
+    width: 100%;
+    padding: 90px 90px;
+    box-sizing: border-box;
+}
+input { margin-bottom: 10px; }
+nav {
+    background-color:#ffffff;
+    border-bottom: 3px solid #cccccc;
+    font-family:'Georgia', Times, 'Times New Roman', serif;
+}
+.container {
+    width:35%;
+    position:relative;
+    float:left;
+}
+.text {
+    z-index: 2;
+    background-color: #4aaaa5;
+    color:white;
+    left: 0;
+    position: absolute;
+    text-align: center;
+    top: 120px;
+    width: 75%;
+    padding-top:10px;
+    padding-bottom:10px;
 }
