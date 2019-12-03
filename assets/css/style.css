@@ -77,8 +77,6 @@ H1 {
     margin:10px;
 }
 #message {
-    width: 100%;
-    padding: 90px 90px;
     box-sizing: border-box;
 }
 input { margin-bottom: 10px; }
